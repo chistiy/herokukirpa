@@ -1,0 +1,18 @@
+{
+  "name": "React Bare App",
+  "description": "A barebones React app",
+  "repository": "https://codesandbox.io/s/router8-ocqkm",
+  "logo": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/220px-React-icon.svg.png",
+  "keywords": ["node", "react", "static"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://codesandbox.io/s/router8-ocqkmt"
+    }
+  ],
+  "scripts": {
+    "postdeploy": "npm run build"
+  }
+}

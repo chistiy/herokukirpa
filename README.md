@@ -1,2 +1,0 @@
-# herokukirpa
-Created with CodeSandbox
